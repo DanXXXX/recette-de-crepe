@@ -1,0 +1,23 @@
+.header {
+    text-align: center;
+    color: #fff;
+    background-image: '../../img/pexels-pixabay-53483.jpg';
+    background-size: cover;
+    background-color: #555;
+    padding-top: 15rem;
+    padding-bottom: 2rem;
+
+    &__title {
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-shadow: 0 3px 1rem rgba(0,0,0, .5);
+        margin-bottom: .5rem;
+    }
+
+    &__info {
+        &-tag {
+            margin: 0 .75rem;
+        }
+    }
+}

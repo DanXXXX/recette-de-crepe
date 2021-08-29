@@ -1,0 +1,15 @@
+.list {
+    text-align: center;
+    padding: 3rem 1rem;
+    
+    &__ingredients {
+       list-style: none; 
+       line-height: 1.8rem;
+
+        &-quantity {
+           font-weight: bold;
+           margin-right: .5rem; 
+        }  
+    }
+
+}
